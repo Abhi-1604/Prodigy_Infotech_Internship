@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        #web{
+            position: fixed;
+            top: 30px;
+        }
+    
+        #navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #313030;
+            z-index: 1000;
+        }
+    
+        #navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+    
+        #navbar li{
+            float: right;
+        }
+    
+        #navbar a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+     
+
+        #navbar a:hover{
+            background-color: #3e3d3d;
+        }
+
+        #navbar.scrolled{
+            background-color: #222;
+        }
+
+        #navbar.scrolled a{
+            background-color: #fff;
+        }
+        
+        #navbar li:first-child{
+            margin-right: 20px;
+        }
+    </style>
+</head>
+
+
+<body>
+    
+    <div id="navbar">
+        <ul>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Home</a></li>
+        </ul>
+    </div>
+
+    <div id="web">
+        <h1>Example of Website</h1>
+    </div>
+    
+</body>
+</html>
